@@ -1,29 +1,177 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-02-28T07:00:00.000Z",
-  "activeFeatures": ["horse-lab"],
-  "primaryFeature": "horse-lab",
+  "lastUpdated": "2026-02-27T17:43:46.041Z",
+  "activeFeatures": [
+    "hourse-match",
+    "layout",
+    "race",
+    "pick",
+    "subscription",
+    "login",
+    "mypage",
+    "[raceId]",
+    "my-pick",
+    "actions"
+  ],
+  "primaryFeature": "hourse-match",
   "features": {
     "horse-lab": {
-      "phase": "design",
+      "phase": "archived",
+      "matchRate": 92,
+      "iterationCount": 1,
+      "startedAt": "2026-02-28T06:00:00.000Z",
+      "archivedAt": "2026-02-28T17:00:00.000Z",
+      "archivedTo": "docs/archive/2026-02/horse-lab/"
+    },
+    "hourse-match": {
+      "phase": "do",
+      "phaseNumber": 3,
       "matchRate": null,
       "iterationCount": 0,
-      "startedAt": "2026-02-28T06:00:00.000Z",
-      "documents": {
-        "plan": "docs/01-plan/features/horse-lab.plan.md",
-        "design": "docs/02-design/features/horse-lab.design.md"
-      }
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T16:33:39.099Z",
+        "lastUpdated": "2026-02-27T17:43:34.968Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/app/page.tsx"
+    },
+    "layout": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T16:34:52.618Z",
+        "lastUpdated": "2026-02-27T16:34:57.342Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/components/layout/MobileNav.tsx"
+    },
+    "race": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T16:35:05.290Z",
+        "lastUpdated": "2026-02-27T17:43:46.041Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/components/race/StrategyTabs.tsx"
+    },
+    "pick": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T16:37:35.645Z",
+        "lastUpdated": "2026-02-27T17:33:17.295Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/components/pick/PickResult.tsx"
+    },
+    "subscription": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T16:37:56.964Z",
+        "lastUpdated": "2026-02-27T16:39:05.077Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/app/subscription/page.tsx"
+    },
+    "login": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T16:38:38.822Z",
+        "lastUpdated": "2026-02-27T16:38:38.822Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/app/login/page.tsx"
+    },
+    "mypage": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T16:38:51.230Z",
+        "lastUpdated": "2026-02-27T16:38:51.230Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/app/mypage/page.tsx"
+    },
+    "[raceId]": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T16:39:41.201Z",
+        "lastUpdated": "2026-02-27T17:34:16.700Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/app/race/[raceId]/page.tsx"
+    },
+    "my-pick": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T16:39:57.571Z",
+        "lastUpdated": "2026-02-27T17:34:33.912Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/app/race/[raceId]/my-pick/page.tsx"
+    },
+    "actions": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-27T17:33:34.209Z",
+        "lastUpdated": "2026-02-27T17:33:45.487Z"
+      },
+      "lastFile": "/Users/seojang-won/Dev/hourse-match/src/actions/pick.ts"
     }
   },
   "pipeline": {
-    "currentPhase": 1,
+    "currentPhase": 3,
     "level": "Dynamic",
-    "phaseHistory": []
+    "phaseHistory": [
+      {
+        "phase": 1,
+        "completedAt": "2026-02-28T06:00:00.000Z"
+      },
+      {
+        "phase": 2,
+        "completedAt": "2026-02-28T07:00:00.000Z"
+      }
+    ]
   },
   "session": {
     "startedAt": "2026-02-28T06:00:00.000Z",
     "onboardingCompleted": true,
-    "lastActivity": "2026-02-28T07:00:00.000Z"
+    "lastActivity": "2026-02-27T17:43:46.041Z"
   },
   "history": [
     {
@@ -35,6 +183,292 @@
       "action": "design_created",
       "feature": "horse-lab",
       "timestamp": "2026-02-28T07:00:00.000Z"
+    },
+    {
+      "action": "do_started",
+      "feature": "horse-lab",
+      "timestamp": "2026-02-28T07:30:00.000Z"
+    },
+    {
+      "action": "do_completed",
+      "feature": "horse-lab",
+      "timestamp": "2026-02-28T08:00:00.000Z"
+    },
+    {
+      "action": "check_completed",
+      "feature": "horse-lab",
+      "timestamp": "2026-02-28T09:00:00.000Z",
+      "matchRate": 82
+    },
+    {
+      "action": "iterate_completed",
+      "feature": "horse-lab",
+      "timestamp": "2026-02-28T16:00:00.000Z",
+      "matchRate": 92,
+      "iteration": 1
+    },
+    {
+      "action": "report_generated",
+      "feature": "horse-lab",
+      "timestamp": "2026-02-28T16:30:00.000Z"
+    },
+    {
+      "action": "archived",
+      "feature": "horse-lab",
+      "timestamp": "2026-02-28T17:00:00.000Z",
+      "archivedTo": "docs/archive/2026-02/horse-lab/"
+    },
+    {
+      "timestamp": "2026-02-27T16:33:39.099Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:34:38.600Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:34:52.618Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:34:57.342Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:35:05.290Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:35:12.385Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:35:16.952Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:35:21.246Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:35:28.133Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:37:35.645Z",
+      "feature": "pick",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:37:46.673Z",
+      "feature": "pick",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:37:56.964Z",
+      "feature": "subscription",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:38:02.861Z",
+      "feature": "subscription",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:38:14.955Z",
+      "feature": "pick",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:38:19.069Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:38:25.383Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:38:29.873Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:38:38.822Z",
+      "feature": "login",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:38:51.230Z",
+      "feature": "mypage",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:39:05.077Z",
+      "feature": "subscription",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:39:24.924Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:39:41.201Z",
+      "feature": "[raceId]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:39:57.571Z",
+      "feature": "my-pick",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:40:19.642Z",
+      "feature": "[raceId]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:40:23.779Z",
+      "feature": "[raceId]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T16:48:14.630Z",
+      "feature": "[raceId]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:19:49.203Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:29:43.134Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:29:46.715Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:32:35.090Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:32:48.058Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:32:56.949Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:33:04.640Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:33:17.295Z",
+      "feature": "pick",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:33:34.209Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:33:39.748Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:33:45.487Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:33:57.992Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:34:16.700Z",
+      "feature": "[raceId]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:34:33.912Z",
+      "feature": "my-pick",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:43:34.968Z",
+      "feature": "hourse-match",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-27T17:43:46.041Z",
+      "feature": "race",
+      "phase": "do",
+      "action": "updated"
     }
   ]
 }

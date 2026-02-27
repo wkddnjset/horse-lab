@@ -1,0 +1,93 @@
+{
+  "timestamp": "2026-02-27T15:52:41.277Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-02-27T15:50:30.988Z",
+    "activeFeatures": [
+      "horse-lab",
+      "horse-lab Gap Analysis"
+    ],
+    "primaryFeature": "horse-lab",
+    "features": {
+      "horse-lab": {
+        "phase": "check",
+        "matchRate": 82,
+        "iterationCount": 0,
+        "startedAt": "2026-02-28T06:00:00.000Z",
+        "documents": {
+          "plan": "docs/01-plan/features/horse-lab.plan.md",
+          "design": "docs/02-design/features/horse-lab.design.md",
+          "analysis": "docs/03-analysis/horse-lab.analysis.md"
+        }
+      },
+      "horse-lab Gap Analysis": {
+        "phase": "act",
+        "phaseNumber": 5,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-27T15:50:30.987Z",
+          "lastUpdated": "2026-02-27T15:50:30.988Z"
+        },
+        "previousPhase": "check",
+        "autoAdvanced": true
+      }
+    },
+    "pipeline": {
+      "currentPhase": 3,
+      "level": "Dynamic",
+      "phaseHistory": [
+        {
+          "phase": 1,
+          "completedAt": "2026-02-28T06:00:00.000Z"
+        },
+        {
+          "phase": 2,
+          "completedAt": "2026-02-28T07:00:00.000Z"
+        }
+      ]
+    },
+    "session": {
+      "startedAt": "2026-02-28T06:00:00.000Z",
+      "onboardingCompleted": true,
+      "lastActivity": "2026-02-27T15:50:30.988Z"
+    },
+    "history": [
+      {
+        "action": "plan_created",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T06:00:00.000Z"
+      },
+      {
+        "action": "design_created",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T07:00:00.000Z"
+      },
+      {
+        "action": "do_started",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T07:30:00.000Z"
+      },
+      {
+        "action": "do_completed",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T08:00:00.000Z"
+      },
+      {
+        "action": "check_completed",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T09:00:00.000Z",
+        "matchRate": 82
+      },
+      {
+        "timestamp": "2026-02-27T15:50:30.988Z",
+        "feature": "horse-lab Gap Analysis",
+        "phase": "act",
+        "action": "updated"
+      }
+    ]
+  }
+}

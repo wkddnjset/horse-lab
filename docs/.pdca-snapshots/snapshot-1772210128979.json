@@ -1,0 +1,182 @@
+{
+  "timestamp": "2026-02-27T16:35:28.978Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-02-27T16:35:28.133Z",
+    "activeFeatures": [
+      "hourse-match",
+      "layout",
+      "race"
+    ],
+    "primaryFeature": "hourse-match",
+    "features": {
+      "horse-lab": {
+        "phase": "archived",
+        "matchRate": 92,
+        "iterationCount": 1,
+        "startedAt": "2026-02-28T06:00:00.000Z",
+        "archivedAt": "2026-02-28T17:00:00.000Z",
+        "archivedTo": "docs/archive/2026-02/horse-lab/"
+      },
+      "hourse-match": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-27T16:33:39.099Z",
+          "lastUpdated": "2026-02-27T16:34:38.600Z"
+        },
+        "lastFile": "/Users/seojang-won/Dev/hourse-match/src/lib/mockData.ts"
+      },
+      "layout": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-27T16:34:52.618Z",
+          "lastUpdated": "2026-02-27T16:34:57.342Z"
+        },
+        "lastFile": "/Users/seojang-won/Dev/hourse-match/src/components/layout/MobileNav.tsx"
+      },
+      "race": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-27T16:35:05.290Z",
+          "lastUpdated": "2026-02-27T16:35:28.133Z"
+        },
+        "lastFile": "/Users/seojang-won/Dev/hourse-match/src/components/race/BlurOverlay.tsx"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 3,
+      "level": "Dynamic",
+      "phaseHistory": [
+        {
+          "phase": 1,
+          "completedAt": "2026-02-28T06:00:00.000Z"
+        },
+        {
+          "phase": 2,
+          "completedAt": "2026-02-28T07:00:00.000Z"
+        }
+      ]
+    },
+    "session": {
+      "startedAt": "2026-02-28T06:00:00.000Z",
+      "onboardingCompleted": true,
+      "lastActivity": "2026-02-27T16:35:28.133Z"
+    },
+    "history": [
+      {
+        "action": "plan_created",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T06:00:00.000Z"
+      },
+      {
+        "action": "design_created",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T07:00:00.000Z"
+      },
+      {
+        "action": "do_started",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T07:30:00.000Z"
+      },
+      {
+        "action": "do_completed",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T08:00:00.000Z"
+      },
+      {
+        "action": "check_completed",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T09:00:00.000Z",
+        "matchRate": 82
+      },
+      {
+        "action": "iterate_completed",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T16:00:00.000Z",
+        "matchRate": 92,
+        "iteration": 1
+      },
+      {
+        "action": "report_generated",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T16:30:00.000Z"
+      },
+      {
+        "action": "archived",
+        "feature": "horse-lab",
+        "timestamp": "2026-02-28T17:00:00.000Z",
+        "archivedTo": "docs/archive/2026-02/horse-lab/"
+      },
+      {
+        "timestamp": "2026-02-27T16:33:39.099Z",
+        "feature": "hourse-match",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-27T16:34:38.600Z",
+        "feature": "hourse-match",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-27T16:34:52.618Z",
+        "feature": "layout",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-27T16:34:57.342Z",
+        "feature": "layout",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-27T16:35:05.290Z",
+        "feature": "race",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-27T16:35:12.385Z",
+        "feature": "race",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-27T16:35:16.952Z",
+        "feature": "race",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-27T16:35:21.246Z",
+        "feature": "race",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-27T16:35:28.133Z",
+        "feature": "race",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}
