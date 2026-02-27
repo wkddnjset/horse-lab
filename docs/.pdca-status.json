@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-02-28T07:00:00.000Z",
+  "activeFeatures": ["horse-lab"],
+  "primaryFeature": "horse-lab",
+  "features": {
+    "horse-lab": {
+      "phase": "design",
+      "matchRate": null,
+      "iterationCount": 0,
+      "startedAt": "2026-02-28T06:00:00.000Z",
+      "documents": {
+        "plan": "docs/01-plan/features/horse-lab.plan.md",
+        "design": "docs/02-design/features/horse-lab.design.md"
+      }
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-02-28T06:00:00.000Z",
+    "onboardingCompleted": true,
+    "lastActivity": "2026-02-28T07:00:00.000Z"
+  },
+  "history": [
+    {
+      "action": "plan_created",
+      "feature": "horse-lab",
+      "timestamp": "2026-02-28T06:00:00.000Z"
+    },
+    {
+      "action": "design_created",
+      "feature": "horse-lab",
+      "timestamp": "2026-02-28T07:00:00.000Z"
+    }
+  ]
+}
